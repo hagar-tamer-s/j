@@ -1,0 +1,43 @@
+.container
+{
+   max-width: 50%;
+}
+
+.head-sec
+{
+    padding: 10px ;
+    text-align:right;
+}
+
+.head-sec img
+{
+    max-height: 32px;
+}
+.pg-grey
+{
+    background-color: rgb(230, 207, 226);
+}
+
+.container-lvl-2 {
+   padding: 20px; ;
+   margin-top: 150px;
+ }
+
+ .container-lvl-2 .main-img
+ {
+    border-radius: 10%;
+    display: block;
+    margin-top: -150px;
+ }
+ 
+@media screen and (max-width: 992px) {
+   .container {
+        max-width: 90%;
+   }    
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 90%;
+    }
+}
