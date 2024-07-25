@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(200, 98, 209);
+    display : flex;
+    justify-content: center;
+}
+
 .container
 {
    max-width: 50%;
@@ -29,15 +35,13 @@
     display: block;
     margin-top: -150px;
  }
- 
-@media screen and (max-width: 992px) {
-   .container {
-        max-width: 90%;
-   }    
-}
 
-@media screen and (max-width: 600px) {
-    .container {
-        max-width: 90%;
-    }
-}
+  form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+   }
+
+   
