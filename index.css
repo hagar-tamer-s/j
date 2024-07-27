@@ -2,6 +2,10 @@ body {
     background-color: rgb(200, 98, 209);
     display : flex;
     justify-content: center;
+
+    
+    font-family: "Oswald", sans-serif;
+     
 }
 
 .container
