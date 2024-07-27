@@ -36,6 +36,18 @@ body {
     margin-top: -150px;
  }
 
+ @media screen and (max-width: 992px) {
+    .container {
+         max-width: 90%;
+    }    
+ }
+ 
+ @media screen and (max-width: 600px) {
+     .container {
+         max-width: 90%;
+     }
+ }
+
   form {
     margin-top: 20px;
     display: flex;
