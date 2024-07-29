@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(64, 119, 145);
+
+    font-family: "Tajawal", sans-serif;
+}
+
+.container {
+ padding-left: 15px;
+ padding-right: 15px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 600px;
+}
+
+@media (min-width:768px) {
+  .container {
+    width: 750px;
+  }    
+}
+
+@media (min-width:992px) {
+  .container {
+     width: 970px;
+  }    
+}
+
+@media (min-width:1200px) {
+    .container {
+      width: 1170px;
+    }
+}
+
+.header {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 30%;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    height: 24px;
+    width: 24px;
+}
+
