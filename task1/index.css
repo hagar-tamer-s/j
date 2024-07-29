@@ -224,7 +224,7 @@ textarea {
 .contact-button {
     display: block;
     margin-left: auto;
-    padding: 10px 20px;
+    padding: auto;
     background-color: rgb(212, 1, 82);
     color: white;
     border: none;
@@ -236,4 +236,41 @@ textarea {
 
 .contact-button:hover {
     background-color: rgb(97, 16, 34);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 1500px;
+    background-color: rgb(63, 58, 148);
+    font-size:20px ;
+    color: rgb(0, 0, 0);
+}
+
+.footer-section  {
+        flex: 1;
+        min-width: 200px;
+        margin: 10px;
+}
+
+.footer-section img {
+  height: 50px;
+  width: 50px;
+}
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
 }
